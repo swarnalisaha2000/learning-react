@@ -14,8 +14,8 @@ function App() {
         <Greet name="rima" age="15">
     <button>Action</button></Greet>*/}
         <Greet name="rohit" age="16" ></Greet>
-        {/*<Welcome name="riya" age="10"></Welcome>
-        <Welcome name="rima" age="15"></Welcome>
+        <Welcome name="riya" age="10"></Welcome>
+       {/* <Welcome name="rima" age="15"></Welcome>
         <Counter/>
 <Message />*/}
         </div>
