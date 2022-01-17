@@ -9,7 +9,7 @@ import Counter from './components/Counter'
 function App() {
     return ( 
         <div className = "App">
-       <Greet name="riya" age="10">
+        <Greet name="riya" age="10">
         <p>This is a children and they are adults</p></Greet>
         <Greet name="rima" age="15">
         <button>Action</button></Greet>
