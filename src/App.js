@@ -9,15 +9,15 @@ import Counter from './components/Counter'
 function App() {
     return ( 
         <div className = "App">
-        <Greet name="riya" age="10">
+        {/*<Greet name="riya" age="10">
         <p>This is a children and they are adults</p></Greet>
         <Greet name="rima" age="15">
-        <button>Action</button></Greet>
-        <Greet name="rohit" age="16"></Greet>
-        <Welcome name="riya" age="10"></Welcome>
+    <button>Action</button></Greet>*/}
+        <Greet name="rohit" age="16" ></Greet>
+        {/*<Welcome name="riya" age="10"></Welcome>
         <Welcome name="rima" age="15"></Welcome>
         <Counter/>
-        <Message />
+<Message />*/}
         </div>
     );
 }
