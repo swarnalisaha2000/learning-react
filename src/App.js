@@ -9,6 +9,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 function App() {
     return ( 
@@ -16,8 +17,10 @@ function App() {
         {/*<FunctionClick />
         <ClassClick />
         <EventBind />
-        <ParentComponent />*/}
-        <UserGreeting />
+        <ParentComponent />
+        <UserGreeting />*/}
+        <NameList />
+    
         {/* <Greet name="riya" age="10">
         <p>This is a children and they are adults</p></Greet>
         <Greet name="rima" age="15">
