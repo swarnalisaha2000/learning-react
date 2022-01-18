@@ -7,13 +7,15 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
     return ( 
         <div className = "App">
         {/*<FunctionClick />
-        <ClassClick />*/}
-        <EventBind />
+        <ClassClick />
+        <EventBind />*/}
+        <ParentComponent />
         {/* <Greet name="riya" age="10">
         <p>This is a children and they are adults</p></Greet>
         <Greet name="rima" age="15">
