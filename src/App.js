@@ -6,21 +6,23 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
     return ( 
         <div className = "App">
-        <FunctionClick></FunctionClick>
-        <ClassClick />
-        {/*<Greet name="riya" age="10">
+        {/*<FunctionClick />
+        <ClassClick />*/}
+        <EventBind />
+        {/* <Greet name="riya" age="10">
         <p>This is a children and they are adults</p></Greet>
         <Greet name="rima" age="15">
-    <button>Action</button></Greet>
+        <button>Action</button></Greet>
         <Greet name="rohit" age="16" ></Greet>
         <Welcome name="riya" age="10"></Welcome>
-       <Welcome name="rima" age="15"></Welcome>
+        <Welcome name="rima" age="15"></Welcome>
         <Counter/>
-<Message />*/}
+        <Message /> */}
         </div>
     );
 }
