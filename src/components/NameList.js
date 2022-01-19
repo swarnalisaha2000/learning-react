@@ -31,7 +31,7 @@ function NameList() {
         }
     ]
     const personList = person.map( persons => 
-    <PersonPer persons={persons}/>
+    <PersonPer key={persons.age} persons={persons}/>
     )
     return (<div>{personList}</div>)
 }
