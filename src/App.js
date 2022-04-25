@@ -27,12 +27,13 @@ import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundary from './ErrorBoundary';
 import ClickCounter from './ClickCounter';
-
+import HoverCounter from './components/HoverCounter';
 function App() {
     return ( 
         <div className = "App">
-            <ClickCounter />
-            
+            <HoverCounter />
+            <ClickCounter name='Vishwas'/>
+            <HoverCounter />
         </div>
             /* <ErrorBoundary>
             <Hero heroname='Batman' />
