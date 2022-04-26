@@ -28,14 +28,20 @@ import Hero from './components/Hero';
 import ErrorBoundary from './ErrorBoundary';
 import ClickCounter from './ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/Usercontext';
 function App() {
     return ( 
         <div className = "App">
+            <UserProvider value="Swarnali">
+                 <ComponentC/>
+            </UserProvider>
+        </div>
+        /* 
             <HoverCounter />
             <ClickCounter name='Vishwas'/>
             <HoverCounter />
-        </div>
-            /* <ErrorBoundary>
+            <ErrorBoundary>
             <Hero heroname='Batman' />
             </ErrorBoundary>
             <ErrorBoundary>
